@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="carrinho.css">    
+</head>
+<body>
+    <header>
+        <img id="inicio" src="logo.png" alt="" style="width: 25vh; height: auto;">
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="search-icon" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+        </svg>
+
+        <svg id="cart-icon" xmlns="http://www.w3.org/2000/svg" class="cart-icon" fill="currentColor" viewBox="0 0 16 16">
+            <path d="M0 2.5A.5.5 0 0 1 .5 2H2a.5.5 0 0 1 .485.379L2.89 4H14.5a.5.5 0 0 1 .485.621l-1.5 6A.5.5 0 0 1 13 11H4a.5.5 0 0 1-.485-.379L1.61 3H.5a.5.5 0 0 1-.5-.5M3.14 5l1.25 5h8.22l1.25-5zM5 13a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0m9-1a1 1 0 1 0 0 2 1 1 0 0 0 0-2m-2 1a2 2 0 1 1 4 0 2 2 0 0 1-4 0"/>
+        </svg>
+    </header>
+
+    <main>
+        <div class="meuCarrinhoMain">
+            <h1>Meu carrinho</h1>
+            
+            <div id="cart"></div>
+            <div class="cart-summary">
+                <div id="total-price"></div>
+                <button id="comprar" data-id="91" data-name="comprar" class="buttonComprarCarrinho">Comprar itens</button>
+            </div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="carrinho.js"></script>
+</body>
+</html>
